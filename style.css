@@ -1,7 +1,9 @@
 body {
 	margin: 0;
-	font-family: 'Helvetica';
+	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
+	font-size: 25px;
+	letter-spacing: 3px;
 }
 
 * {
@@ -13,10 +15,10 @@ body {
 }
 
 header, footer {
-	min-height: 15vh;
+	min-height: 10vh;
 	width: 100%;
-	border: 4px solid #3972A8;
-	background: #AED2F5;
+	border: 4px solid rgb(201, 174, 207);
+	background: rgb(233, 227, 232);
 	padding: 20px;
 }
 
@@ -25,12 +27,13 @@ header, footer {
 	display: flex;
 	align-items: stretch;
 	min-height: 70vh;
-	border: 4px solid #3972A8;
+	border: 4px solid rgb(160, 122, 168);
 }
 
 .main > * {
-	border: 4px solid #3972A8;
-	background: #CDE1F5;
+	border: 4px solid rgb(201, 174, 207);
+	background: rgb(233, 227, 232);
+	padding: 20px 40px;
 }
 
 nav, aside {
@@ -43,4 +46,5 @@ article {
 
 nav a {
 	display: block;
+	color: rgb(53, 175, 24);
 }
