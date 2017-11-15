@@ -24,7 +24,7 @@ const sub=(a,b)=>{
    
 };
 const mul=(a,b)=>{
-	const promise = fetch(`http://localhost:3000/multiplication?a=${a}&b=${b}`);
+	const promise = fetch(`http://localhost:3000/multiplication?a=${a}&b=${b}`); //мяф
 	promise.then(res => {
 	 if (res.status !== 200) {
 	  console.log(`Looks like there was a problem. Status Code: ${res.status}`);
