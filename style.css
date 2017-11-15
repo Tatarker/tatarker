@@ -48,3 +48,8 @@ nav a {
 	display: block;
 	color: rgb(53, 175, 24);
 }
+@media (max-width:1000px) {
+	.content {
+		width: auto;
+	}
+}
